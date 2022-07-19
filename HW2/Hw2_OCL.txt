@@ -1,0 +1,15 @@
+1.
+Context : 
+
+Department
+
+Invariant :
+
+self.departmentBudget > 0
+
+2.
+Context : Employee
+
+pre : amount > 0
+
+post: self.income = self.income@pre + amount and output = self.income
